@@ -1,0 +1,24 @@
+$color: red;
+
+* {
+    box-sizing: border-box;
+}
+
+// body {
+//     background-color: $color;
+// }
+
+header {
+
+    h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+main {
+
+    ol {
+        color: $color;
+    }
+}
