@@ -1,11 +1,10 @@
-* {
-  box-sizing: border-box; }
+html {
+  font-size: 1rem; }
 
-header h1 {
-  text-align: center;
-  margin: 0 auto; }
+ul li a {
+  color: white; }
 
-main ol {
-  color: red; }
+.book-images div div .card-title {
+  font-size: 1.3rem; }
 
 /*# sourceMappingURL=style.css.map */

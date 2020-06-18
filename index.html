@@ -1,14 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Author Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Author Page</title>
 </head>
 
 <body>
 
+
+  <div class="container">
+    <header>
+
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">CS50 Authors</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Genres
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Theology</a>
+              <a class="dropdown-item" href="#">Sci-Fi</a>
+              <a class="dropdown-item" href="#">Horror</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Classics Shtuff</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Favorite Authors!!</h1>
+        <p class="lead">This is a page for the CS50 Web Programming Edx course to highlight our favorite Authors!</p>
+      </div>
+    </div>
+
+    <div class="row mx-auto book-images">
+      
+
+      <div class="card bg-dark text-white img-thumbnail col-sm-3">
+        <img class="card-img mx-auto" src="images/cthulu.jpg" alt="Card image">
+        <div class="card-img-overlay">
+          <h2 class="card-title text-center">Horror!!</h2>
+        </div>
+      </div>
+
+      <div class="card bg-dark text-white img-thumbnail col-sm-3">
+        <img class="card-img mx-auto" src="images/vergil.jpg" alt="Card image">
+        <div class="card-img-overlay">
+          <h2 class="card-title text-center">Classics!!</h2>
+        </div>
+      </div>
+
+
+      <div class="card bg-dark text-white img-thumbnail col-sm-3">
+        <img class="card-img" src="images/jesus-wand.jpg" alt="Card image">
+        <div class="card-img-overlay">
+          <h2 class="card-title text-center">Theology!!</h2>
+        </div>
+      </div>
+
+
+      <div class="card bg-dark text-white img-thumbnail col-sm-3">
+        <img class="card-img" src="images/do-not-panic.jpg" alt="Card image">
+        <div class="card-img-overlay">
+          <h2 class="card-title text-center">Sci-fi!!</h2>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+    <div class="card col-sm-6">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="card col-sm-6">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+<footer class="page-footer font-small blue pt-4 p-3 mb-2 bg-primary text-white">
+
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content.</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3 text-white">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled text-white">
+          <li>
+            <a href="#!" class="text-white">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+</footer>
+  </div>
+
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<!--
     <header>
         <h1>Audacious Authors</h1>
     </header>
@@ -23,10 +205,4 @@
             <li>Raymond Smullyan</li>
         </ol>
     </main>
-
-    <footer>
-
-    </footer>
-
-</body>
-</html>
+-->

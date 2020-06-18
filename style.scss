@@ -1,24 +1,41 @@
-$color: red;
+$color: white;
 
-* {
-    box-sizing: border-box;
+html {
+    font-size: 1rem;
 }
 
-// body {
-//     background-color: $color;
+ul li a {
+    color: $color;
+}
+
+.book-images div div .card-title {
+    font-size: 1.3rem;
+}
+
+// * {
+//     box-sizing: border-box;
 // }
 
-header {
+// body {
+//     display: grid;
+//     grid-template-columns: 33fr 33fr 33fr;
+//     justify-content: center;
+//     background-color: gray;
+// }
 
-    h1 {
-        text-align: center;
-        margin: 0 auto;
-    }
-}
+// header {
 
-main {
+//     background-color: red;
 
-    ol {
-        color: $color;
-    }
-}
+//     h1 {
+//         text-align: center;
+//         margin: 0 auto;
+//     }
+// }
+
+// main {
+
+//     ol {
+//         color: $color;
+//     }
+// }
