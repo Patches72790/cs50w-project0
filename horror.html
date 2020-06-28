@@ -2,60 +2,214 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Author Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Horror Author Page</title>
 </head>
 
 <body>
+    <div class="container">
 
-<div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">CS50 Authors</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Genres<span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="theology.html">Theology</a>
+                            <a class="dropdown-item" href="scifi.html">Sci-Fi</a>
+                            <a class="dropdown-item" href="horror.html">Horror</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="classics.html">Classics Shtuff</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">CS50 Authors</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="About.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Genres
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="theology.html">Theology</a>
-                <a class="dropdown-item" href="scifi.html">Sci-Fi</a>
-                <a class="dropdown-item" href="horror.html">Horror</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="classics.html">Classics Shtuff</a>
-              </div>
-            </li>
-          </ul>
+
+        <div class="jumbotron">
+            <div class="container row justify-content-center">
+                <h1 class="display-4">Welcome to the Horror Page!!</h1>
+                <h4 class="lead">This page showcases some of our favorite Horror Authors!</h4>
+                <img src="images/crow.jpg" class="img-fluid">
+                <p>Copyright: Charles Thompson</p>
+            </div>
         </div>
-      </nav>
-</div>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-crossorigin="anonymous"></script>
+        <!-- Authors section -->
+        <div class="row justify-content-center">
+
+
+            <div class="card col-sm-10">
+                <div class="card-header">
+                    H. P. Lovecraft
+                </div>
+                <div class="card-body">
+
+                    <div class="card bg-dark col-sm-3 col float-left">
+                        <img class="card-img" src="images/hp.jpg" alt="Card image">
+                    </div>
+
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+
+                    <p>
+                        (US: /ˈlʌvkræft/; August 20, 1890 – March 15, 1937) was an American writer of weird fiction and horror fiction, who is known for his creation of what became the Cthulhu Mythos. Born in Providence, Rhode Island, Lovecraft spent most of his life in New
+                        England. He was born into affluence, but the family's wealth dissipated soon after the death of his grandfather. In 1913, he wrote a critical letter to a pulp magazine that ultimately led to his involvement in pulp fiction. During
+                        the interwar period, he wrote and published stories that focused on his interpretation of humanity's place in the universe. In his view, humanity was an unimportant part of an uncaring cosmos that could be swept away at any moment.
+                        These stories also included fantastic elements that represented the perceived fragility of anthropocentrism.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="card col-sm-10">
+                <div class="card-header">
+                    Mary Shelley
+                </div>
+
+                <div class="card-body">
+
+                    <div class="card bg-dark col-sm-3 col float-left">
+                        <img class="card-img" src="images/mary.jpg" alt="Card image">
+                    </div>
+
+
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+
+                    <p>
+                        (August 1797 – 1 February 1851) was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818). She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father
+                        was the political philosopher William Godwin and her mother was the philosopher and feminist Mary Wollstonecraft.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card col-sm-10">
+                <div class="card-header">
+                    Gregory Boyd
+                </div>
+                <div class="card-body">
+
+                    <div class="card bg-dark col-sm-3 col float-left">
+                        <img class="card-img" src="images/greg.png" alt="Card image">
+                    </div>
+
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                Title</cite></footer>
+                    </blockquote>
+
+                    <p>
+                        (born June 2, 1957) is an American theologian, pastor, and author. Boyd is Senior Pastor of Woodland Hills Church in St. Paul, Minnesota and President of Reknew.org. He is one of the leading spokesmen in the growing Neo-Anabaptism movement, which is based
+                        in the tradition of Anabaptism and advocates Christian pacifism and a non-violent understanding of God.
+                        </br>
+                        Boyd has also long been known as a leading advocate of open theism. In addition, he is known for his writings on the relationship between Christianity and politics, including his best-selling book The Myth of a Christian Nation, which was written after
+                        The New York Times published a front-page cover article on Boyd's criticism of the Christian right. In 2010, Boyd was listed as one of the twenty most influential living Christian scholars. In addition to The New York Times, Boyd
+                        has also made appearances on CNN, NPR, the BBC, and The Charlie Rose Show.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card col-sm-10">
+                <div class="card-header">
+                    J&uuml;rgen Moltmann
+                </div>
+                <div class="card-body">
+
+                    <div class="card bg-dark col-sm-3 col float-left">
+                        <img class="card-img" src="images/moltmann.jpg" alt="Card image">
+                    </div>
+
+                    <blockquote class="blockquote mb-0">
+                        <p>"After all is said and done, more is said than done."</p>
+                        <footer class="blockquote-footer">Aesopus in <cite title="Source Title">Aesop's Fables</cite>
+                        </footer>
+                    </blockquote>
+
+                    <p>
+                        (born 8 April 1926) is a German Reformed theologian who is Professor Emeritus of Systematic Theology at the University of Tübingen. Moltmann has contributed to a number of areas of Christian theology, including systematic theology, eschatology, ecclesiology,
+                        political theology, Christology, pneumatology, and the theology of creation. He has received honorary doctorates from a number of institutions, such as Duke University (1973), the University of Louvain in Belgium (1995), the Alexandru
+                        Ioan Cuza University in Romania (1996), the Chung Yuan Christian University in Taiwan (2002), the Nicaraguan Evangelical University (2002), and the University of Pretoria in South Africa (2017). Moltmann was selected to deliver
+                        the prestigious Gifford Lectures in 1984–85, and was also the recipient of the 2000 University of Louisville and Louisville Presbyterian Theological Seminary Grawemeyer Award in Religion.
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer class="page-footer font-small blue pt-4 p-3 mb-2 bg-primary text-white">
+
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <h5 class="text-uppercase">This is the CS50 Authors Homepage</h5>
+                        <p>Brought to you by your very own Patrick Harvey and Jacob Luallen.</p>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <div class="col-md-6 mb-md-0 mb-3 text-white">
+                        <h5 class="text-uppercase">Links</h5>
+                        <ul class="list-unstyled text-white">
+                            <li>
+                                <a href="#" class="text-white">Home</a>
+                            </li>
+                            <li>
+                                <a href="theology.html">Theology</a>
+                            </li>
+                            <li>
+                                <a href="scifi.html">Sci-Fi</a>
+                            </li>
+                            <li>
+                                <a href="horror.html">Horror</a>
+                            </li>
+                            <li>
+                                <a href="classics.html">Classics</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
